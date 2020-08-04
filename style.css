@@ -9,7 +9,7 @@ h1 {
 @media only screen and (max-width: 300px) {
     body {
         background-color: red;
-        font-family: 'Quicksand', sans-serif;
+        font-size: 12px;
     }
 }
 
@@ -17,7 +17,7 @@ h1 {
 @media only screen and (min-width: 300px)and (max-width: 768px) {
     body {
         background-color: green;
-        font-family: 'Chilanka', cursive;
+        font-size: 18px;
     }
 
     #small {
@@ -30,6 +30,7 @@ h1 {
         float: left;
         width: 30%;
         margin-left: 5%;
+        padding-right: 2%;
     }
 
     #large {
@@ -42,7 +43,7 @@ h1 {
 @media only screen and (min-width: 768px) {
     body {
         background-color: blue;
-        font-family: 'Rowdies', cursive;
+        font-size: 23px;
     }
 
     #small {
@@ -61,5 +62,6 @@ h1 {
         float: left;
         width: 30%;
         margin-left: 3%;
+        padding-right: 2%;
     }
 }
