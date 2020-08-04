@@ -1,0 +1,65 @@
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+        font-family: 'Quicksand', sans-serif;
+    }
+}
+
+
+@media only screen and (min-width: 300px)and (max-width: 768px) {
+    body {
+        background-color: green;
+        font-family: 'Chilanka', cursive;
+    }
+
+    #small {
+        float: left;
+        width: 60%;
+        margin-left: 5%;
+    }
+
+    #medium {
+        float: left;
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    #large {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+        font-family: 'Rowdies', cursive;
+    }
+
+    #small {
+        float: left;
+        width: 30%;
+        margin-left: 3%;
+    }
+
+    #medium {
+        float: left;
+        width: 30%;
+        margin-left: 3%;
+    }
+
+    #large {
+        float: left;
+        width: 30%;
+        margin-left: 3%;
+    }
+}
