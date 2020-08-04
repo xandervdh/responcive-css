@@ -11,6 +11,21 @@ h1 {
         background-color: red;
         font-size: 12px;
     }
+
+    #small {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #medium {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #large {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 
 
