@@ -1,0 +1,26 @@
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.bg-color {
+  @include media-breakpoint-up(xs) {
+    background-color: red;
+  }
+
+  @include media-breakpoint-up(sm) {
+    background-color: green;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-color: green;
+  }
+  @include media-breakpoint-up(lg) {
+    background-color: blue;
+  }
+}
