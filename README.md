@@ -1,4 +1,4 @@
-# responcive css
-this is the preview link
+# responcive CSS
+With this [challenge](4.responsive-web-design.md) I learned responsive CSS
 
-https://xandervdh.github.io/responcive-css/
+[Live review](https://xandervdh.github.io/responcive-css/)
